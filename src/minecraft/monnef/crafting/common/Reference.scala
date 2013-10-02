@@ -1,9 +1,10 @@
 package monnef.crafting.common
 
 object Reference {
-  def modId = "AutoAssemblyTable"
+  final val modId = "AutoAssemblyTable"
 
-  def modName = "Automatic Assembly Table"
+  final val modName = "Automatic Assembly Table"
 
-  def version = "0.0.1"
+  final val version = "0.0.1"
 }
+

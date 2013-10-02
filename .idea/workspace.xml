@@ -727,7 +727,7 @@
     <file path="/AutomaticAssemblyTable.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380740430521" ignored="false" />
     <file path="/ClientProxy.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380736970407" ignored="false" />
     <file path="/CommonProxy.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380737068914" ignored="false" />
-    <file path="/Reference.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380740424760" ignored="false" />
+    <file path="/Reference.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380741039230" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -818,7 +818,7 @@
       <file leaf-file-name="AutomaticAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="111" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="13" column="23" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -827,7 +827,7 @@
       <file leaf-file-name="Reference.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/Reference.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="156" selection-end="156" vertical-scroll-proportion="0.23868954">
+            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1291,7 +1291,7 @@
       <recent name="monnef.core.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.server">
+  <component name="RunManager" selected="Application.client">
     <configuration default="false" name="IntCoordsTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="mcp725_jaffas" />
@@ -1744,7 +1744,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1762,7 +1762,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194237" sideWeight="0.5546875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194237" sideWeight="0.5546875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.4941302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19316968" sideWeight="0.4955357" order="2" side_tool="false" content_ui="tabs" />
@@ -1965,14 +1965,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="111" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+        <state line="13" column="23" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/Reference.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="156" selection-end="156" vertical-scroll-proportion="0.23868954">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

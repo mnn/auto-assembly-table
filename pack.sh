@@ -18,12 +18,10 @@ fi
 
 rm -fr ./$outtmp/*
 rm -fr ./$output/*
-rm -fr ./$core/*
 rm -fr ./$dist/*
 
 mkdir $output &>/dev/null
 mkdir $outtmp &>/dev/null
-mkdir $core &>/dev/null
 mkdir $dist &>/dev/null
 
 touch "$outtmp/.placeholder"
@@ -31,7 +29,7 @@ touch "$outtmp/.placeholder"
 echo Done
 echo -n Parsing version...
 
-ver_line=`grep -Ei 'def +version' src/minecraft/monnef/aat/common/Reference.scala`
+ver_line=`grep -Ei 'version +=' src/minecraft/monnef/crafting/common/Reference.scala`
 test $? -ne 0 && { echo "Cannot determine version" ; exit 2 ; }
 
 version=`sed -r 's/^.*"(.*)".*$/\1/' <<< "$ver_line"`
@@ -45,7 +43,7 @@ echo "Version detected: [$version]"
 
 echo -n Copying mod files...
 cp -r $binPath/* "$outtmp"
-cp -r reobf/minecraft/{monnef} "$outtmp"
+cp -r reobf/minecraft/monnef "$outtmp"
 rm -fr "$outtmp/monnef/core"
 
 outName="auto_assembly_table_$version"
@@ -57,18 +55,6 @@ cd "$od"
 
 echo Done
 #jar packing done
-
-#core version
-echo -n Parsing core version...
-ver_line=`grep -Ei 'String +Version' src/minecraft/monnef/core/Reference.java`
-test $? -ne 0 && { echo "Cannot determine version" ; exit 2 ; }
-
-version_core=`sed -r 's/^.*"(.*)".*;$/\1/' <<< "$ver_line"`
-test $? -ne 0 && { echo "Cannot parse version" ; exit 2 ; }
-
-test ${#version_core} -gt 8 && { echo "Parsed version is suspiciously long, stopping" ; exit 2 ; }
-echo Done
-echo "Version detected: [$version_core]"
 
 echo -n Creating final zips...
 cd $dist
