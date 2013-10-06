@@ -5,32 +5,46 @@
 
 package monnef.crafting
 
-import cpw.mods.fml.common.{SidedProxy, Mod}
-import cpw.mods.fml.common.network.NetworkMod
+import cpw.mods.fml.common.{ModMetadata, SidedProxy, Mod}
+import cpw.mods.fml.common.network.{NetworkRegistry, NetworkMod}
 import cpw.mods.fml.common.Mod.EventHandler
 import cpw.mods.fml.common.event.{FMLPostInitializationEvent, FMLInitializationEvent, FMLPreInitializationEvent}
-import monnef.crafting.common.{ConfigurationManager, Reference, CommonProxy}
+import monnef.crafting.common.{GuiHandler, ConfigurationManager, CommonProxy}
 import monnef.core.utils.{RegistryUtils, CustomLogger, IDProvider}
 import net.minecraftforge.common.Configuration
 import monnef.crafting.block.BlockAutoAssemblyTable
+import monnef.crafting.block.TileAutoAssemblyTable
 import monnef.crafting.client.CraftingCreativeTab
 import java.lang.Exception
 import net.minecraft.item.ItemStack
+import scala.collection.JavaConverters._
+import cpw.mods.fml.common.registry.GameRegistry
+import monnef.crafting.common.Reference._
+import net.minecraft.tileentity.TileEntity
+import monnef.core.client.PackageToModIdRegistry
 
-@Mod(modid = Reference.modId, name = Reference.modName, version = Reference.version, modLanguage = "scala", dependencies = "required-after:monnef-core")
+@Mod(modid = modId, name = modName, version = version, modLanguage = "scala", dependencies = "required-after:monnef-core")
 @NetworkMod(clientSideRequired = true, serverSideRequired = true)
 object AutomaticAssemblyTable {
   @SidedProxy(clientSide = "monnef.crafting.client.ClientProxy", serverSide = "monnef.crafting.common.CommonProxy")
   var proxy: CommonProxy = null
-  var idProvider: IDProvider = new IDProvider(2200, 22000, Reference.modName)
+  var idProvider: IDProvider = new IDProvider(2200, 22000, modName)
   var config: Configuration = _
   var creativeTab: CraftingCreativeTab = _
-  var log: CustomLogger = new CustomLogger(Reference.modId)
+  var log: CustomLogger = new CustomLogger(modId)
 
   var aat: BlockAutoAssemblyTable = _
 
+  def setupMetadata(metadata: ModMetadata) {
+    metadata.authorList = List(author).asJava
+  }
+
+  def registerTile(c: Class[_ <: TileEntity], n: String) { GameRegistry.registerTileEntity(c, modId + n) }
+
   @EventHandler
   def preInit(e: FMLPreInitializationEvent) {
+    setupMetadata(e.getModMetadata)
+    PackageToModIdRegistry.registerClassToModId()
     config = new Configuration(e.getSuggestedConfigurationFile)
     try {
       config.load()
@@ -42,12 +56,14 @@ object AutomaticAssemblyTable {
       config.save()
     }
 
-    creativeTab = new CraftingCreativeTab("monnefCrafting", Reference.modName)
+    creativeTab = new CraftingCreativeTab("monnefCrafting", modName)
 
     aat = new BlockAutoAssemblyTable(idProvider.getBlockIDFromConfig("autoAssemblyTable"))
     RegistryUtils.registerBlock(aat, "autoAssemblyTable", "Automatic Assembly Table")
+    registerTile(classOf[TileAutoAssemblyTable], "autoAssemblyTable")
 
     creativeTab setup new ItemStack(aat).getItem
+    NetworkRegistry.instance().registerGuiHandler(this, new GuiHandler())
   }
 
   @EventHandler
@@ -58,6 +74,6 @@ object AutomaticAssemblyTable {
 
   @EventHandler
   def postInit(e: FMLPostInitializationEvent) {
-    log.printInfo(Reference.modName + " by monnef is successfully initialized.")
+    log.printInfo(modName + " by monnef is successfully initialized.")
   }
 }

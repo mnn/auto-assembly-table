@@ -10,9 +10,9 @@ import net.minecraft.item.ItemStack
 import net.minecraft.entity.player.EntityPlayer
 
 trait Inventory extends IInventory {
-  private val invObj = new InventoryBasic(getInvName, isInvNameLocalized, getSizeInventory)
+  private val invObj: IInventory = new InventoryBasic(getInvName, isInvNameLocalized, getSizeInventory)
 
-  def getSizeInventory: Int = invObj.getSizeInventory
+  def getSizeInventory: Int
 
   def getStackInSlot(slot: Int): ItemStack = invObj.getStackInSlot(slot)
 
