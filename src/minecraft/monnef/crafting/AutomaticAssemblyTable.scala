@@ -22,6 +22,7 @@ import cpw.mods.fml.common.registry.GameRegistry
 import monnef.crafting.common.Reference._
 import net.minecraft.tileentity.TileEntity
 import monnef.core.client.PackageToModIdRegistry
+import monnef.core.common.ContainerRegistry
 
 @Mod(modid = modId, name = modName, version = version, modLanguage = "scala", dependencies = "required-after:monnef-core")
 @NetworkMod(clientSideRequired = true, serverSideRequired = true)
@@ -55,6 +56,8 @@ object AutomaticAssemblyTable {
     } finally {
       config.save()
     }
+
+    proxy.registerContainers
 
     creativeTab = new CraftingCreativeTab("monnefCrafting", modName)
 
