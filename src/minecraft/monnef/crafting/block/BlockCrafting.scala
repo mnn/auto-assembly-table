@@ -16,7 +16,7 @@ class BlockCrafting(_id: Int, _mat: Material, _idx: Int) extends BlockMonnefCore
 
   def getModName: String = Reference.modName
 
-  def getDefaultSheetNumber: Int = 1
+  def getDefaultSheetNumber: Int = Reference.defaultSheetNumber
 
   setCreativeTab(AutomaticAssemblyTable.creativeTab)
 }

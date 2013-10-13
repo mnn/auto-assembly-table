@@ -1,6 +1,8 @@
 package monnef.crafting.common
 
 object Reference {
+  final val defaultSheetNumber = 20
+
   final val author = "monnef"
 
   final val modId = "AutoAssemblyTable"

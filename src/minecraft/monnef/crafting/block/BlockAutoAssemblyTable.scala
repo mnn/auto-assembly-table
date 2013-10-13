@@ -12,10 +12,11 @@ import monnef.crafting.AutomaticAssemblyTable
 import monnef.crafting.common.GuiEnum
 import net.minecraft.tileentity.TileEntity
 
-class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, Material.iron) {
+class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, Material.iron, 1) {
 
   setResistance(5)
   setHardness(5)
+  setIconsCount(16)
 
   override def onBlockActivated(world: World, x: Int, y: Int, z: Int, player: EntityPlayer, side: Int, par7: Float, par8: Float, par9: Float): Boolean =
     if (!player.isSneaking) {
