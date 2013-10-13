@@ -5,14 +5,15 @@
 
 package monnef.crafting.block
 
-import net.minecraft.block.material.Material
 import net.minecraft.world.World
 import net.minecraft.entity.player.EntityPlayer
 import monnef.crafting.AutomaticAssemblyTable
 import monnef.crafting.common.GuiEnum
 import net.minecraft.tileentity.TileEntity
+import monnef.core.utils.BreakableIronMaterial
+import BreakableIronMaterial.breakableIronMaterial
 
-class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, Material.iron, 1) {
+class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronMaterial, 1) {
 
   setResistance(5)
   setHardness(5)

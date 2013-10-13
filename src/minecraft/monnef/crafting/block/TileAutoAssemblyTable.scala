@@ -5,10 +5,10 @@
 
 package monnef.crafting.block
 
-import monnef.crafting.common.ContainerAutoAssemblyTable
 import monnef.core.common.ContainerRegistry.ContainerTag
+import monnef.crafting.common.AutoAssemblyTableHelper._
 
-@ContainerTag(slotsCount = 10 + 9 * 6, outputSlotsCount = 10)
+@ContainerTag(slotsCount = totalSlots, outputSlotsCount = outputSlotsCount)
 class TileAutoAssemblyTable extends TileCraftingWithInventory {
   def getInvName: String = "Automatic Assembly Table"
 
