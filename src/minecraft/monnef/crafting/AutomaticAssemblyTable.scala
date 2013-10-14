@@ -57,7 +57,7 @@ object AutomaticAssemblyTable {
       config.save()
     }
 
-    proxy.registerContainers
+    //proxy.registerContainers()
 
     creativeTab = new CraftingCreativeTab("monnefCrafting", modName)
 

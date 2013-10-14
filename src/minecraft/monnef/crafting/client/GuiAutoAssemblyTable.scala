@@ -18,10 +18,14 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, tile: TileEntity, _conta
 
   protected override def getContainerTitle: String = "Automatic Assembly Table"
 
+  val buttonXPos = 115
+  val buttonYPos = 14
+  val buttonSize = 18
+
   override def initGui() {
     super.initGui()
     val buttons = buttonList.asInstanceOf[java.util.List[GuiButton]]
     for (y <- 0 to 2;x <- 0 to 2;id = 3 * y + x)
-      buttons.add(new GuiButton(id, 115 + x * 18 + this.x, 14 + y * 18 + this.y, 18, 18 + (if (y == 2) 1 else 0), id.toString))
+      buttons.add(new GuiButton(id, buttonXPos + x * buttonSize + this.x, buttonYPos + y * buttonSize + this.y, buttonSize, buttonSize + (if (y == 2) 1 else 0), id.toString))
   }
 }

@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d443db7d-9629-4d3a-84d0-1a1a1a197e05" name="Default" comment="Ł">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/AutoAssemblyTableHelper.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin_data/assets/automatic assembly table/textures/gui/guiaat.png" afterPath="$PROJECT_DIR$/bin_data/assets/automatic assembly table/textures/gui/guiaat.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textures/guiaat.png" afterPath="$PROJECT_DIR$/textures/guiaat.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textures/guiaat.xcf" afterPath="$PROJECT_DIR$/textures/guiaat.xcf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockAutoAssemblyTable.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockAutoAssemblyTable.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mcp725.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380914234110" ignored="false" />
-    <file path="/Dummy.txt" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381667548080" ignored="false" />
+    <file path="/fragment.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381775804070" ignored="false" />
+    <file path="/Dummy.txt" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381771203922" ignored="false" />
     <file path="/BlockFridge.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1366993833296" ignored="false" />
     <file path="/TileEntityFridge.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1372606222178" ignored="false" />
     <file path="/TileEntityJaffaMachine.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1374156004628" ignored="false" />
@@ -65,7 +60,7 @@
     <file path="/TileEntityBoardRenderer.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1358192951068" ignored="false" />
     <file path="/ModelBoard.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1358522623851" ignored="false" />
     <file path="/BitHelper.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1368960614698" ignored="false" />
-    <file path="/ClientProxy.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380737614650" ignored="false" />
+    <file path="/ClientProxy.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381775196451" ignored="false" />
     <file path="/Version.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1358242541374" ignored="false" />
     <file path="/AchievmentsCraftingHandler.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1358257322191" ignored="false" />
     <file path="/AchievementsCraftingHandler.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1368625401964" ignored="false" />
@@ -95,7 +90,7 @@
     <file path="/RenderMinecart.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1358592605857" ignored="false" />
     <file path="/ModulesEnum.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1358802658129" ignored="false" />
     <file path="/mod_jaffas_carts.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1361546501327" ignored="false" />
-    <file path="/a.dummy" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1375800666939" ignored="false" />
+    <file path="/a.dummy" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381771369564" ignored="false" />
     <file path="/IPowerNode.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1359889863688" ignored="false" />
     <file path="/BlockGenerator.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1373553891515" ignored="false" />
     <file path="/ModelGenerator.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1358622633246" ignored="false" />
@@ -153,7 +148,7 @@
     <file path="/SpawnStonePacketUtils.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1360421517666" ignored="false" />
     <file path="/PlayerTracker.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1368640728642" ignored="false" />
     <file path="/SpawnStoneServerPacketSender.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1359401154101" ignored="false" />
-    <file path="/CommonProxy.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380739818199" ignored="false" />
+    <file path="/CommonProxy.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381775184341" ignored="false" />
     <file path="/PowerLabels.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1373796393009" ignored="false" />
     <file path="/IMachineTool.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1373796338279" ignored="false" />
     <file path="/TileEntityHelper.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1359647267220" ignored="false" />
@@ -659,7 +654,7 @@
     <file path="/GuiExporter.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1379946523720" ignored="false" />
     <file path="/ContainerExporter.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1379849975816" ignored="false" />
     <file path="/CommandMC.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381658830531" ignored="false" />
-    <file path="/MonnefCoreNormalMod.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380612261570" ignored="false" />
+    <file path="/MonnefCoreNormalMod.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381775177894" ignored="false" />
     <file path="/DummyPacketHandler.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1379848600634" ignored="false" />
     <file path="/SlotLocked.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1379849959809" ignored="false" />
     <file path="/ScreenShotHelper.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1379857302631" ignored="false" />
@@ -740,7 +735,7 @@
     <file path="/GuiHandler.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381435995099" ignored="false" />
     <file path="/AutoAssemblyTableContainer.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380984474977" ignored="false" />
     <file path="/AutoAssemblyTableGUI.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1380984233912" ignored="false" />
-    <file path="/TileAutoAssemblyTable.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381676178315" ignored="false" />
+    <file path="/TileAutoAssemblyTable.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381775336706" ignored="false" />
     <file path="/GuiAutoAssemblyTable.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381678742050" ignored="false" />
     <file path="/ContainerAutoAssemblyTable.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381677289140" ignored="false" />
     <file path="/package.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381435976990" ignored="false" />
@@ -748,6 +743,9 @@
     <file path="/ContainerMonnefCore.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381655133332" ignored="false" />
     <file path="$PROJECT_DIR$/core/src/monnef/core/utils/PlayerHelper.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381662036515" ignored="false" />
     <file path="/AutoAssemblyTableHelper.scala" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381676187237" ignored="false" />
+    <file path="/ContainerRegistry.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381775583516" ignored="false" />
+    <file path="/Reflections.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381773768216" ignored="false" />
+    <file path="/Vfs.java" changelist="d443db7d-9629-4d3a-84d0-1a1a1a197e05" time="1381774018339" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -835,24 +833,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GuiAutoAssemblyTable.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala">
+      <file leaf-file-name="MonnefCoreNormalMod.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/monnef/core/mod/MonnefCoreNormalMod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="949" selection-end="949" vertical-scroll-proportion="0.46896553">
-              <folding>
-                <element signature="e#86#134#0" expanded="true" />
-              </folding>
+            <state line="46" column="30" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainerAutoAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala">
+      <file leaf-file-name="CommonProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/monnef/core/common/CommonProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="48" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#86#135#0" expanded="true" />
-              </folding>
+            <state line="20" column="66" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -860,9 +854,20 @@
       <file leaf-file-name="TileAutoAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="30" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainerRegistry.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/monnef/core/common/ContainerRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="2780" selection-end="2780" vertical-scroll-proportion="0.8803681">
               <folding>
-                <element signature="e#85#141#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1035#1077#0" expanded="true" />
+                <element signature="e#1781#1791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -877,10 +882,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoAssemblyTableHelper.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/AutoAssemblyTableHelper.scala">
+      <file leaf-file-name="AutomaticAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="67" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+            <state line="59" column="24" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonProxy.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/CommonProxy.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="97" selection-start="302" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -905,22 +919,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/ClientProxy.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/GuiHandler.scala" />
-        <option value="$PROJECT_DIR$/core/src/monnef/core/utils/scala/package.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/Inventory.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileCraftingWithInventory.scala" />
-        <option value="$PROJECT_DIR$/core/src/monnef/core/block/ContainerMonnefCore.java" />
-        <option value="$PROJECT_DIR$/core/src/monnef/core/command/CommandMC.java" />
-        <option value="$PROJECT_DIR$/core/src/monnef/core/client/GuiContainerMonnefCore.java" />
-        <option value="$PROJECT_DIR$/core/src/monnef/core/utils/DyeHelper.java" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockCrafting.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/Reference.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockAutoAssemblyTable.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/AutoAssemblyTableHelper.scala" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala" />
+        <option value="$PROJECT_DIR$/core/src/org/reflections/dummy.java" />
+        <option value="$PROJECT_DIR$/core/src/org/dummy.java" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/external/reflections/Reflections.java" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/external/reflections/scanners/Scanner.java" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/external/reflections/vfs/Vfs.java" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/mod/MonnefCoreNormalMod.java" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/common/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/client/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala" />
+        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/common/ContainerRegistry.java" />
+        <option value="$PROJECT_DIR$/core/src/eu/infomas/annotation/dummy.java" />
+        <option value="$PROJECT_DIR$/core/src/eu/dummy.java" />
       </list>
     </option>
   </component>
@@ -1305,7 +1319,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
+              <option name="myItemId" value="external" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="external" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1316,7 +1360,7 @@
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -1330,9 +1374,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.31578946" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.31578946" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1353,15 +1397,15 @@
       <recent name="monnef.jaffas.food.block" />
       <recent name="monnef.jaffas.food.item" />
     </key>
-    <key name="IntroduceConstantDialog.RECENTS_KEY">
-      <recent name="monnef.core.MonnefCorePlugin" />
-    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="monnef.jaffas.food.ConfigurationManager" />
       <recent name="monnef.jaffas.food.ContentHolder" />
       <recent name="monnef.jaffas.food.world.GenerationHelper" />
       <recent name="monnef.core.utils.EntityHelper" />
       <recent name="monnef.jaffas.power.block.common.ProcessingMachineRegistry" />
+    </key>
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="monnef.core.MonnefCorePlugin" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="monnef.jaffas.food.crafting" />
@@ -1371,11 +1415,11 @@
       <recent name="monnef.jaffas.food.block" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="monnef.core.external.eu.infomas" />
+      <recent name="monnef.core.external" />
+      <recent name="eu" />
+      <recent name="org" />
       <recent name="monnef.crafting.block" />
-      <recent name="monnef.jaffas.food.block.common" />
-      <recent name="monnef.core.test.innerPackage" />
-      <recent name="monnef.core.utils" />
-      <recent name="monnef.core.asm" />
     </key>
   </component>
   <component name="RunManager" selected="Application.client">
@@ -1830,15 +1874,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2890625" sideWeight="0.49573106" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.7109375" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24330357" sideWeight="0.4914621" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24330357" sideWeight="0.4914621" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5085379" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17075774" sideWeight="0.38058037" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36979723" sideWeight="0.73995537" order="4" side_tool="false" content_ui="tabs" />
@@ -1846,11 +1890,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29575893" sideWeight="0.48292422" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29575893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194237" sideWeight="0.2533482" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194237" sideWeight="0.19196428" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967984" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194237" sideWeight="0.74553573" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14194237" sideWeight="0.56473213" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.4941302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19316968" sideWeight="0.4955357" order="2" side_tool="false" content_ui="tabs" />
@@ -1946,16 +1990,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/GuiHandler.scala">
+    <entry file="jar://D:/apps/Java/jdk1.7.0_25/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.5736196">
+        <state line="355" column="20" selection-start="13494" selection-end="13494" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/common/ContainerRegistry.java">
+    <entry file="jar://D:/apps/Java/jdk1.7.0_25/jre/lib/rt.jar!/com/sun/istack/internal/Nullable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="0" selection-start="7639" selection-end="7639" vertical-scroll-proportion="0.68711656">
+        <state line="9" column="18" selection-start="485" selection-end="485" vertical-scroll-proportion="0.23287672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/external/eu/infomas/annotation/AnnotationDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="19" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/client/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="65" selection-start="789" selection-end="789" vertical-scroll-proportion="0.61130136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/AutoAssemblyTableHelper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="67" selection-start="464" selection-end="464" vertical-scroll-proportion="0.39110428">
           <folding />
         </state>
       </provider>
@@ -1967,99 +2032,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ConfigurationManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="48" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#86#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#85#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/AutoAssemblyTableHelper.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+        <state line="29" column="48" selection-start="884" selection-end="884" vertical-scroll-proportion="0.5736196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/jars/mods/NotEnoughItems-dev 1.6.1.5.jar!/src/codechicken/nei/Widget.java">
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/CommonProxy.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="110" selection-end="110" vertical-scroll-proportion="0.10429448">
+        <state line="12" column="97" selection-start="302" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/jars/mods/NotEnoughItems-dev 1.6.1.5.jar!/src/codechicken/nei/Button.java">
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="137" selection-end="137" vertical-scroll-proportion="0.10429448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apps/Java/jdk1.7.0_25/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="12" selection-start="9674" selection-end="9674" vertical-scroll-proportion="0.63175124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/client/GuiModList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="13" selection-start="3578" selection-end="3578" vertical-scroll-proportion="0.41864407">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/client/GuiIdMismatchScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="19" selection-start="2402" selection-end="2402" vertical-scroll-proportion="-0.3297546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/client/gui/GuiButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="72" selection-start="3808" selection-end="3808" vertical-scroll-proportion="2.286207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/client/gui/GuiScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="583" selection-end="583" vertical-scroll-proportion="0.09770115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/client/gui/inventory/GuiContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="49" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.099183194">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/client/GuiContainerMonnefCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.11724138">
+        <state line="59" column="24" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="949" selection-end="949" vertical-scroll-proportion="0.46896553">
+        <state line="13" column="26" selection-start="323" selection-end="343" vertical-scroll-proportion="0.15644172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/mod/MonnefCoreNormalMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="30" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/common/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/common/ContainerRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="2780" selection-end="2780" vertical-scroll-proportion="0.8803681">
           <folding>
-            <element signature="e#86#134#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1035#1077#0" expanded="true" />
+            <element signature="e#1781#1791#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2153,7 +2188,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JUnit</last-edited>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
