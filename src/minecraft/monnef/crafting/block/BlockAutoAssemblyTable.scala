@@ -5,13 +5,15 @@
 
 package monnef.crafting.block
 
-import net.minecraft.world.World
+import net.minecraft.world.{IBlockAccess, World}
 import net.minecraft.entity.player.EntityPlayer
 import monnef.crafting.AutomaticAssemblyTable
 import monnef.crafting.common.GuiEnum
 import net.minecraft.tileentity.TileEntity
 import monnef.core.utils.BreakableIronMaterial
 import BreakableIronMaterial.breakableIronMaterial
+import net.minecraft.util.Icon
+import monnef.crafting.common.AutoAssemblyTableHelper._
 
 class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronMaterial, 1) {
 
@@ -30,4 +32,6 @@ class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronM
   override def hasTileEntity(metadata: Int): Boolean = true
 
   override def createTileEntity(world: World, metadata: Int): TileEntity = new TileAutoAssemblyTable
+
+  override def getBlockTexture(world: IBlockAccess, x: Int, y: Int, z: Int, side: Int): Icon = icons(tableGroupToDyeNumber(side))
 }
