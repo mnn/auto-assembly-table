@@ -5,6 +5,8 @@
 
 package monnef.crafting.common
 
+import monnef.core.utils.{ColorHelper, DyeHelper}
+
 
 object AutoAssemblyTableHelper {
   final val inputGroupsCount = 9
@@ -14,14 +16,28 @@ object AutoAssemblyTableHelper {
 
   def startOfInputGroup(g: Int) = g * slotsPerInputGroup
 
-  val startOfOutput = startOfInputGroup(inputGroupsCount) + slotsPerInputGroup
+  val startOfOutput = startOfInputGroup(inputGroupsCount - 1) + slotsPerInputGroup
 
-  final val totalSlots = slotsPerInputGroup * (inputGroupsCount + 1) + outputSlotsCount
+  final val totalSlots = slotsPerInputGroup * inputGroupsCount + outputSlotsCount
 
-  // TODO: do the actual mapping
-  private val groupToDyeMap: Map[Int, Int] = (0 to inputGroupsCount).foldLeft(Map[Int, Int]())((a, v) => a + (v -> v))
+  private val groupToDyeMap: Array[Int] = Array(1, 10, 4, 13, 14, 8, 12, 11, 15)
+  private val dyeValues = groupToDyeMap.map(id => {
+    val c = ColorHelper.getColor(DyeHelper.getIntColor(id))
+    c.setAlpha(255)
+    val cc = ColorHelper.getColor(ColorHelper.addBrightness(c.toInt, -50))
+    (c.toInt, cc.toInt)
+  })
+
+  def guiGroupColors(g: Int): (Int, Int) = dyeValues(g)
 
   def tableGroupToDyeNumber(g: Int) =
     if (g < 0 || g >= inputGroupsCount) throw new IllegalArgumentException
     else groupToDyeMap(g)
+
+  def checkSanity() {
+    assert(groupToDyeMap.length == inputGroupsCount, s"groupToDyeMap's size should be $inputGroupsCount, but is ${groupToDyeMap.length}.")
+    assert(groupToDyeMap.distinct.length == groupToDyeMap.length, "groupToDyeMap contains duplicate values.")
+  }
+
+  checkSanity()
 }

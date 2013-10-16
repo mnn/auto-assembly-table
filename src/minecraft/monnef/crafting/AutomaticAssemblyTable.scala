@@ -57,8 +57,6 @@ object AutomaticAssemblyTable {
       config.save()
     }
 
-    //proxy.registerContainers()
-
     creativeTab = new CraftingCreativeTab("monnefCrafting", modName)
 
     aat = new BlockAutoAssemblyTable(idProvider.getBlockIDFromConfig("autoAssemblyTable"))
