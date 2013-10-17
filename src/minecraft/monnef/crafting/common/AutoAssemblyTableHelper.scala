@@ -30,6 +30,8 @@ object AutoAssemblyTableHelper {
 
   def guiGroupColors(g: Int): (Int, Int) = dyeValues(g)
 
+  def guiGroupMainColor(g: Int): Int = guiGroupColors(g)._1
+
   def tableGroupToDyeNumber(g: Int) =
     if (g < 0 || g >= inputGroupsCount) throw new IllegalArgumentException
     else groupToDyeMap(g)

@@ -13,4 +13,7 @@ class TileAutoAssemblyTable extends TileCraftingWithInventory {
   def getInvName: String = "Automatic Assembly Table"
 
   def isInvNameLocalized: Boolean = false
+
+  // cost=8; slotsUsed=5;
+  // slotsUsed*cost+20*cost = 200
 }
