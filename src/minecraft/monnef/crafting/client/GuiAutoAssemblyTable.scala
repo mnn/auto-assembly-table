@@ -19,8 +19,8 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, tile: TileEntity, _conta
 
   protected override def getContainerTitle: String = "Automatic Assembly Table"
 
-  val buttonXPos = 115
-  val buttonYPos = 14
+  val buttonXPos = 177
+  val buttonYPos = 13
   val buttonSize = 18
 
   override def initGui() {

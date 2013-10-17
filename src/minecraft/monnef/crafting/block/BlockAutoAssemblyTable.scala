@@ -10,7 +10,7 @@ import net.minecraft.entity.player.EntityPlayer
 import monnef.crafting.AutomaticAssemblyTable
 import monnef.crafting.common.GuiEnum
 import net.minecraft.tileentity.TileEntity
-import monnef.core.utils.BreakableIronMaterial
+import monnef.core.utils.{DirectionHelper, BreakableIronMaterial}
 import BreakableIronMaterial.breakableIronMaterial
 import net.minecraft.util.Icon
 import monnef.crafting.common.AutoAssemblyTableHelper._
@@ -19,7 +19,7 @@ class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronM
 
   setResistance(5)
   setHardness(5)
-  setIconsCount(16)
+  setIconsCount(32)
 
   override def onBlockActivated(world: World, x: Int, y: Int, z: Int, player: EntityPlayer, side: Int, par7: Float, par8: Float, par9: Float): Boolean =
     if (!player.isSneaking) {
@@ -33,5 +33,8 @@ class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronM
 
   override def createTileEntity(world: World, metadata: Int): TileEntity = new TileAutoAssemblyTable
 
-  override def getBlockTexture(world: IBlockAccess, x: Int, y: Int, z: Int, side: Int): Icon = icons(tableGroupToDyeNumber(side))
+  override def getBlockTexture(world: IBlockAccess, x: Int, y: Int, z: Int, side: Int): Icon = {
+    val shift = if (DirectionHelper.isYAxis(side)) 16 else 0
+    icons(tableGroupToDyeNumber(side) + shift)
+  }
 }

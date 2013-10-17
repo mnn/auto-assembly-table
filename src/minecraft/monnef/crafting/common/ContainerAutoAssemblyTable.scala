@@ -32,6 +32,7 @@ class ContainerAutoAssemblyTable(inv: InventoryPlayer, tile: TileEntity) extends
   }
 
   override def getYSize: Int = 270
+  override def getXSize: Int = 236
 
   protected override def getYPlayerInvShift: Int = 1
 }
