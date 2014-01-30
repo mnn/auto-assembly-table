@@ -32,7 +32,7 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, tile: TileEntity, _conta
     val stringStates = Array("x")
     colorButtons = Map()
     for (y <- 0 to 2;x <- 0 to 2;id = 3 * y + x) {
-      val button = new ColorButton(id, buttonXPos + x * buttonSize + this.x, buttonYPos + y * buttonSize + this.y, buttonSize, buttonSize + 2, colorStates, stringStates, 0, true)
+      val button = new CraftingColorButton(id, buttonXPos + x * buttonSize + this.x, buttonYPos + y * buttonSize + this.y, buttonSize, buttonSize + 2, colorStates, stringStates)
       buttons.add(button)
       colorButtons += (id -> button)
     }

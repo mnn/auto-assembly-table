@@ -40,7 +40,7 @@ object AutomaticAssemblyTable {
     metadata.authorList = List(author).asJava
   }
 
-  def registerTile(c: Class[_ <: TileEntity], n: String) { GameRegistry.registerTileEntity(c, modId + n) }
+  def registerTile(c: Class[_ <: TileEntity], n: String) { GameRegistry.registerTileEntity(c, modId + "." + n) }
 
   @EventHandler
   def preInit(e: FMLPreInitializationEvent) {
