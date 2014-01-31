@@ -36,7 +36,7 @@ class ContainerAutoAssemblyTable(inv: InventoryPlayer, tile: TileEntity) extends
 
   override def getXSize: Int = 237
 
-  protected override def getYPlayerInvShift: Int = 1
+  protected override def getYPlayerInvShift: Int = 0
 
   final val tableTile = tile.asInstanceOf[TileAutoAssemblyTable]
 }
