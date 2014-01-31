@@ -11,9 +11,15 @@ import net.minecraft.tileentity.TileEntity
 import monnef.core.block.ContainerMonnefCore
 import net.minecraft.client.gui.GuiButton
 import monnef.crafting.common.AutoAssemblyTableHelper._
+import monnef.crafting.network.AssemblyTablePatternUpdatePacket
+import cpw.mods.fml.relauncher.Side
+import monnef.crafting.block.TileAutoAssemblyTable
 
-class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, tile: TileEntity, _container: ContainerMonnefCore) extends GuiContainerMonnefCore(_container) {
+class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, val tile: TileEntity, _container: ContainerMonnefCore) extends GuiContainerMonnefCore(_container) {
   setBackgroundTexture("guiaat.png")
+  if (!tile.isInstanceOf[TileAutoAssemblyTable]) throw new RuntimeException("Cannot create a GUI for non-AAT tile.")
+
+  val tableTile = tile.isInstanceOf[TileAutoAssemblyTable]
 
   protected override def usesDoubleTexture(): Boolean = true
 
@@ -23,7 +29,7 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, tile: TileEntity, _conta
   val buttonYPos = 13
   val buttonSize = 18
 
-  var colorButtons: Map[Int, ColorButton] = _
+  var colorButtons: Map[Int, CraftingColorButton] = _
 
   override def initGui() {
     super.initGui()
@@ -58,6 +64,7 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, tile: TileEntity, _conta
     colorButtons.get(button.id).foreach(b => {
       if (lastMouseButtonProcessed == 0) b.nextState()
       else if (lastMouseButtonProcessed == 1) b.prevState()
+      AssemblyTablePatternUpdatePacket.create(button.asInstanceOf[CraftingColorButton], button.id, Side.SERVER).sendToServer()
     })
   }
 }

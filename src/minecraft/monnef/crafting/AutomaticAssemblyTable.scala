@@ -23,6 +23,8 @@ import monnef.crafting.common.Reference._
 import net.minecraft.tileentity.TileEntity
 import monnef.core.client.PackageToModIdRegistry
 import monnef.core.common.ContainerRegistry
+import monnef.core.mod.MonnefCoreNormalMod
+import monnef.crafting.network.AssemblyTablePatternUpdatePacket
 
 @Mod(modid = modId, name = modName, version = version, modLanguage = "scala", dependencies = "required-after:monnef-core")
 @NetworkMod(clientSideRequired = true, serverSideRequired = true)
@@ -65,6 +67,7 @@ object AutomaticAssemblyTable {
 
     creativeTab setup new ItemStack(aat).getItem
     NetworkRegistry.instance().registerGuiHandler(this, new GuiHandler())
+    MonnefCoreNormalMod.packetHandler.manager.registerPacket(32, classOf[AssemblyTablePatternUpdatePacket])
   }
 
   @EventHandler
