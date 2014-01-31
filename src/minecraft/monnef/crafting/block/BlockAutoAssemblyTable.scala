@@ -14,6 +14,8 @@ import monnef.core.utils.{DirectionHelper, BreakableIronMaterial}
 import BreakableIronMaterial.breakableIronMaterial
 import net.minecraft.util.Icon
 import monnef.crafting.common.AutoAssemblyTableHelper._
+import monnef.crafting.network.AssemblyTablePatternUpdatePacket
+import cpw.mods.fml.relauncher.Side
 
 class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronMaterial, 1) {
 
@@ -24,6 +26,7 @@ class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronM
   override def onBlockActivated(world: World, x: Int, y: Int, z: Int, player: EntityPlayer, side: Int, par7: Float, par8: Float, par9: Float): Boolean =
     if (!player.isSneaking) {
       player.openGui(AutomaticAssemblyTable, GuiEnum.AutoAssemblyTable.id, world, x, y, z)
+      if (!player.worldObj.isRemote) AssemblyTablePatternUpdatePacket.create(getTableTile(world, x, y, z), Side.CLIENT).sendToClient(player)
       true
     } else {
       super.onBlockActivated(world, x, y, z, player, side, par7, par8, par9)
@@ -37,4 +40,6 @@ class BlockAutoAssemblyTable(_id: Int) extends BlockCrafting(_id, breakableIronM
     val shift = if (DirectionHelper.isYAxis(side)) 16 else 0
     icons(tableGroupToDyeNumber(side) + shift)
   }
+
+  def getTableTile(w: World, x: Int, y: Int, z: Int): TileAutoAssemblyTable = w.getBlockTileEntity(x, y, z).asInstanceOf[TileAutoAssemblyTable]
 }

@@ -18,8 +18,7 @@ import monnef.crafting.block.TileAutoAssemblyTable
 class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, val tile: TileEntity, _container: ContainerMonnefCore) extends GuiContainerMonnefCore(_container) {
   setBackgroundTexture("guiaat.png")
   if (!tile.isInstanceOf[TileAutoAssemblyTable]) throw new RuntimeException("Cannot create a GUI for non-AAT tile.")
-
-  val tableTile = tile.isInstanceOf[TileAutoAssemblyTable]
+  val tableTile: TileAutoAssemblyTable = tile.asInstanceOf[TileAutoAssemblyTable]
 
   protected override def usesDoubleTexture(): Boolean = true
 
@@ -42,6 +41,7 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, val tile: TileEntity, _c
       buttons.add(button)
       colorButtons += (id -> button)
     }
+    fillPatternFromTile()
   }
 
   protected override def drawGuiContainerForegroundLayer(par1: Int, par2: Int) {
@@ -66,5 +66,12 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, val tile: TileEntity, _c
       else if (lastMouseButtonProcessed == 1) b.prevState()
       AssemblyTablePatternUpdatePacket.create(button.asInstanceOf[CraftingColorButton], button.id, Side.SERVER).sendToServer()
     })
+  }
+
+  def fillPatternFromTile() {
+    tableTile.generateCompleteIndexStateList().foreach {
+      case (idx, minusOneBasedState) =>
+        colorButtons(idx).setNumberOfSelectedColor(minusOneBasedState)
+    }
   }
 }

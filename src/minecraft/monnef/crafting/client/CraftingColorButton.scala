@@ -14,9 +14,7 @@ class CraftingColorButton(_id: Int, _x: Int, _y: Int, _width: Int, _height: Int,
 
   def isColorSelected: Boolean = getCurrentStateNumber >= stringsLen
 
-  def numberOfSelectedColor: Int =
-    if (!isColorSelected) throw new RuntimeException("Color is not selected!")
-    else getCurrentStateNumber - stringsLen
+  def numberOfSelectedState: Int = getCurrentStateNumber - stringsLen
 
   def setNumberOfSelectedColor(id: Int) { setState(stringsLen + id) }
 }

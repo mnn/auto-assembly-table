@@ -10,6 +10,7 @@ import net.minecraft.entity.player.InventoryPlayer
 import net.minecraft.tileentity.TileEntity
 import monnef.core.block.ContainerMonnefCore
 import AutoAssemblyTableHelper._
+import monnef.crafting.block.TileAutoAssemblyTable
 
 class ContainerAutoAssemblyTable(inv: InventoryPlayer, tile: TileEntity) extends ContainerMonnefCore(inv, tile) {
   def constructSlots(inv: IInventory) {
@@ -32,7 +33,10 @@ class ContainerAutoAssemblyTable(inv: InventoryPlayer, tile: TileEntity) extends
   }
 
   override def getYSize: Int = 271
+
   override def getXSize: Int = 237
 
   protected override def getYPlayerInvShift: Int = 1
+
+  final val tableTile = tile.asInstanceOf[TileAutoAssemblyTable]
 }
