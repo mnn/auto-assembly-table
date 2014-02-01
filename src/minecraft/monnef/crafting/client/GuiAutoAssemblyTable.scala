@@ -5,7 +5,7 @@
 
 package monnef.crafting.client
 
-import monnef.core.client.{ColorButton, GuiContainerMonnefCore}
+import monnef.core.client.{KeyboardHelper, ColorButton, GuiContainerMonnefCore}
 import net.minecraft.entity.player.InventoryPlayer
 import net.minecraft.tileentity.TileEntity
 import monnef.core.block.ContainerMonnefCore
@@ -29,6 +29,8 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, val tile: TileEntity, _c
   val buttonSize = 18
 
   var colorButtons: Map[Int, CraftingColorButton] = _
+
+  var pickedState = 0
 
   override def initGui() {
     super.initGui()
@@ -59,11 +61,17 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, val tile: TileEntity, _c
     }
   }
 
+  def getStateShift = if (KeyboardHelper.isShiftPressed) 3 else 1
+
   protected override def actionPerformed(button: GuiButton) {
     super.actionPerformed(button)
     colorButtons.get(button.id).foreach(b => {
-      if (lastMouseButtonProcessed == 0) b.nextState()
-      else if (lastMouseButtonProcessed == 1) b.prevState()
+      if (lastMouseButtonProcessed == 0) b.nextState(getStateShift)
+      else if (lastMouseButtonProcessed == 1) b.prevState(getStateShift)
+      else if (lastMouseButtonProcessed == 2) {
+        if (KeyboardHelper.isShiftPressed) pickedState = b.getCurrentStateNumber
+        else b.setState(pickedState)
+      }
       AssemblyTablePatternUpdatePacket.create(b, b.id, Side.SERVER).sendToServer()
       tableTile.updatePattern(List(b.id -> b.numberOfSelectedState))
     })

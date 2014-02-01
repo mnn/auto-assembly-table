@@ -17,4 +17,6 @@ class CraftingColorButton(_id: Int, _x: Int, _y: Int, _width: Int, _height: Int,
   def numberOfSelectedState: Int = getCurrentStateNumber - stringsLen
 
   def setNumberOfSelectedColor(id: Int) { setState(stringsLen + id) }
+
+  override def doesReactToThisButton(button: Int): Boolean = super.doesReactToThisButton(button) || button == 2
 }
