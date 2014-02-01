@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d443db7d-9629-4d3a-84d0-1a1a1a197e05" name="Default" comment="Ł">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/network/AssemblyTablePatternUpdatePacket.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/network/AssemblyTablePatternUpdatePacket.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala" afterPath="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mcp725.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,24 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AutomaticAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="36" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1462">
-              <folding>
-                <element signature="e#79#136#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TileAutoAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="29" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1003">
-              <folding>
-                <element signature="e#85#141#0" expanded="true" />
-              </folding>
+            <state line="29" column="6" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="901">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,40 +107,45 @@
       <file leaf-file-name="AssemblyTablePatternUpdatePacket.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/network/AssemblyTablePatternUpdatePacket.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1887">
-              <folding>
-                <element signature="e#87#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerMonnefCore.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/monnef/core/block/ContainerMonnefCore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="15" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="582" max-vertical-offset="2873">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5240#5241#0" expanded="true" />
-                <element signature="e#5271#5272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerAutoAssemblyTable.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="52" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.717608" vertical-offset="78" max-vertical-offset="680">
+            <state line="83" column="29" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiAutoAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ContainerAutoAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="18" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/monnef/core/utils/PlayerHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="23" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.0" vertical-offset="1383" max-vertical-offset="2261">
+              <folding>
+                <element signature="e#5689#5705#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiAutoAssemblyTable.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="41" selection-start="2707" selection-end="2707" vertical-scroll-proportion="0.0" vertical-offset="571" max-vertical-offset="1224">
+            <state line="67" column="69" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.96843857" vertical-offset="369" max-vertical-offset="1241">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CraftingColorButton.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/CraftingColorButton.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="6" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -160,7 +154,7 @@
       <file leaf-file-name="BlockAutoAssemblyTable.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockAutoAssemblyTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="28" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -223,12 +217,13 @@
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/TileAutoAssemblyTable.scala" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/PatternItem.scala" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockAutoAssemblyTable.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/CraftingColorButton.scala" />
         <option value="$PROJECT_DIR$/core/src/monnef/core/block/ContainerMonnefCore.java" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala" />
-        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/network/AssemblyTablePatternUpdatePacket.scala" />
         <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala" />
+        <option value="$PROJECT_DIR$/core/src/monnef/core/utils/PlayerHelper.java" />
+        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/network/AssemblyTablePatternUpdatePacket.scala" />
+        <option value="$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala" />
       </list>
     </option>
   </component>
@@ -361,6 +356,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -704,7 +700,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -772,7 +767,7 @@
       <recent name="monnef.core.network.Message" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.client">
+  <component name="RunManager" selected="Application.client 2">
     <configuration default="false" name="IntCoordsTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="mcp725_jaffas" />
@@ -1227,7 +1222,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28730512" sideWeight="0.49573106" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.7109375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30066815" sideWeight="0.4914621" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5085379" order="10" side_tool="true" content_ui="tabs" />
@@ -1250,6 +1244,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28730512" sideWeight="0.49573106" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1298,28 +1293,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/common/ModClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="26" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.18764302" vertical-offset="720" max-vertical-offset="1615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/utils/BreakableIronMaterial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="454" selection-end="454" vertical-scroll-proportion="0.1750572" vertical-offset="0" max-vertical-offset="874" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/client/GuiContainerMonnefCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="8" selection-start="3342" selection-end="3342" vertical-scroll-proportion="1.712977" vertical-offset="0" max-vertical-offset="5117" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/GuiHandler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="26" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.6229008" vertical-offset="0" max-vertical-offset="655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/client/AdvancedButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
@@ -1344,16 +1317,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/MC16NativeCorePacketHandler.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="10" column="39" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/message/MessageObject.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="2" column="6" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/CorePacketDispatcher.scala">
@@ -1370,16 +1339,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/NetworkHelper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="884" selection-end="884" vertical-scroll-proportion="0.40846682" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
+        <state line="27" column="16" selection-start="884" selection-end="884" vertical-scroll-proportion="0.40846682" vertical-offset="0" max-vertical-offset="874" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/client/entity/AbstractClientPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="0.09725401" vertical-offset="0" max-vertical-offset="1615">
-          <folding />
-        </state>
+        <state line="16" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="0.09725401" vertical-offset="0" max-vertical-offset="1615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/client/entity/EntityPlayerSP.java">
@@ -1398,37 +1363,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/common/PacketMonnefCoreBase.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="161" selection-end="161" vertical-scroll-proportion="0.09988249" vertical-offset="0" max-vertical-offset="851">
-          <folding />
-        </state>
+        <state line="5" column="35" selection-start="161" selection-end="161" vertical-scroll-proportion="0.09988249" vertical-offset="0" max-vertical-offset="851" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/CorePacketHandlerTrait.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="330" selection-end="330" vertical-scroll-proportion="0.37649062" vertical-offset="0" max-vertical-offset="587">
-          <folding />
-        </state>
+        <state line="14" column="6" selection-start="330" selection-end="330" vertical-scroll-proportion="0.37649062" vertical-offset="0" max-vertical-offset="587" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/jars/minecraft_server.1.6.4.jar!/com/google/common/collect/HashBiMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="961" selection-end="961" vertical-scroll-proportion="0.49571183" vertical-offset="0" max-vertical-offset="3060">
-          <folding />
-        </state>
+        <state line="18" column="67" selection-start="961" selection-end="961" vertical-scroll-proportion="0.49571183" vertical-offset="0" max-vertical-offset="3060" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/common/Loader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="57" selection-start="7340" selection-end="7340" vertical-scroll-proportion="0.5873544" vertical-offset="1942" max-vertical-offset="13175">
-          <folding />
-        </state>
+        <state line="204" column="57" selection-start="7340" selection-end="7340" vertical-scroll-proportion="0.5873544" vertical-offset="1942" max-vertical-offset="13175" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/jars/minecraft_server.1.6.4.jar!/cpw/mods/fml/relauncher/Side.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="176" selection-end="176" vertical-scroll-proportion="0.17677642" vertical-offset="0" max-vertical-offset="577">
-          <folding />
-        </state>
+        <state line="7" column="4" selection-start="176" selection-end="176" vertical-scroll-proportion="0.17677642" vertical-offset="0" max-vertical-offset="577" />
       </provider>
     </entry>
     <entry file="jar://D:/apps/Java/jdk1.7.0_25/src.zip!/java/lang/Class.java">
@@ -1440,9 +1395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/PacketManager.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="259" selection-end="259" vertical-scroll-proportion="0.21444954" vertical-offset="0" max-vertical-offset="872">
-          <folding />
-        </state>
+        <state line="11" column="6" selection-start="259" selection-end="259" vertical-scroll-proportion="0.21444954" vertical-offset="0" max-vertical-offset="872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/mod/MonnefCoreNormalMod.java">
@@ -1470,37 +1423,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/common/IFMLSidedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.27293578" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="39" column="9" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.27293578" vertical-offset="0" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/common/FMLCommonHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="26" selection-start="10355" selection-end="10355" vertical-scroll-proportion="0.37155962" vertical-offset="4385" max-vertical-offset="7752">
-          <folding />
-        </state>
+        <state line="333" column="26" selection-start="10355" selection-end="10355" vertical-scroll-proportion="0.37155962" vertical-offset="4385" max-vertical-offset="7752" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/common/network/IGuiHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.8440367" vertical-offset="29" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="56" column="18" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.8440367" vertical-offset="29" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/common/network/NetworkRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="64" selection-start="11736" selection-end="11736" vertical-scroll-proportion="0.39231664" vertical-offset="4542" max-vertical-offset="5559">
-          <folding />
-        </state>
+        <state line="327" column="64" selection-start="11736" selection-end="11736" vertical-scroll-proportion="0.39231664" vertical-offset="4542" max-vertical-offset="5559" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/cpw/mods/fml/common/network/FMLNetworkHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="356" column="47" selection-start="13101" selection-end="13101" vertical-scroll-proportion="0.6444954" vertical-offset="4640" max-vertical-offset="6817">
-          <folding />
-        </state>
+        <state line="356" column="47" selection-start="13101" selection-end="13101" vertical-scroll-proportion="0.6444954" vertical-offset="4640" max-vertical-offset="6817" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/entity/player/EntityPlayer.java">
@@ -1519,39 +1462,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/client/gui/GuiIngame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.09895227" vertical-offset="0" max-vertical-offset="17119">
-          <folding />
-        </state>
+        <state line="45" column="13" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.09895227" vertical-offset="0" max-vertical-offset="17119" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/client/Minecraft.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="201" column="12" selection-start="9025" selection-end="9025" vertical-scroll-proportion="0.35273573" vertical-offset="3114" max-vertical-offset="42007">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/AutoAssemblyTableHelper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="288" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="14" column="28" selection-start="288" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/PacketMonnefCoreTrait.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="16" column="14" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/network/CorePacketHandlerMC16.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="846" selection-end="846" vertical-scroll-proportion="0.3322091" vertical-offset="126" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="24" column="17" selection-start="846" selection-end="846" vertical-scroll-proportion="0.3322091" vertical-offset="126" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockCrafting.scala">
@@ -1563,30 +1498,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/PatternItem.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="212" selection-end="212" vertical-scroll-proportion="0.36710963" vertical-offset="51" max-vertical-offset="663">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/CraftingColorButton.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="81" selection-start="638" selection-end="638" vertical-scroll-proportion="0.48006645" vertical-offset="0" max-vertical-offset="602">
-          <folding />
-        </state>
+        <state line="16" column="6" selection-start="212" selection-end="212" vertical-scroll-proportion="0.36710963" vertical-offset="51" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/BlockAutoAssemblyTable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="41" selection-start="2707" selection-end="2707" vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
@@ -1605,24 +1522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="29" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1003">
-          <folding>
-            <element signature="e#85#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="36" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1462">
-          <folding>
-            <element signature="e#79#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/inventory/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="34" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.32712457" vertical-offset="314" max-vertical-offset="13311">
@@ -1630,29 +1529,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/network/AssemblyTablePatternUpdatePacket.scala">
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/AutomaticAssemblyTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#87#141#0" expanded="true" />
-          </folding>
+        <state line="30" column="36" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1462">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/monnef/core/block/ContainerMonnefCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="15" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="582" max-vertical-offset="2873">
+        <state line="49" column="15" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.21395881" vertical-offset="425" max-vertical-offset="2669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/CoreModContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.11670481" vertical-offset="0" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/command/IEntitySelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="124" selection-end="124" vertical-scroll-proportion="0.11670481" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/net/minecraft/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3616" column="16" selection-start="118710" selection-end="118710" vertical-scroll-proportion="0.33333334" vertical-offset="59978" max-vertical-offset="77707">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/monnef/core/utils/PlayerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="23" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.0" vertical-offset="1383" max-vertical-offset="2261">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5240#5241#0" expanded="true" />
-            <element signature="e#5271#5272#0" expanded="true" />
+            <element signature="e#5689#5705#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/common/ContainerAutoAssemblyTable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="52" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.717608" vertical-offset="78" max-vertical-offset="680">
+        <state line="37" column="18" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/network/AssemblyTablePatternUpdatePacket.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="29" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/CraftingColorButton.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/block/TileAutoAssemblyTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="6" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minecraft/monnef/crafting/client/GuiAutoAssemblyTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="69" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.96843857" vertical-offset="369" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>

@@ -18,6 +18,7 @@ import java.net.ProtocolException
 import monnef.crafting.block.TileAutoAssemblyTable
 import net.minecraft.inventory.ICrafting
 import scala.collection.JavaConverters._
+import monnef.core.utils.PlayerHelper
 
 /**
  * Update packet of crafting pattern (from color buttons) of assembly table
@@ -70,10 +71,9 @@ class AssemblyTablePatternUpdatePacket(var idxToState: List[(Int, Int)] = List.e
         if (DEBUG) MonnefCorePlugin.Log.printDebug(s"S: updating pattern - $idxToState")
         tile.updatePattern(idxToState)
         // send to all crafters
-        // TODO: crafters doesn't seem to contain more players, just the local one :/
         val updatePacket = new AssemblyTablePatternUpdatePacket(idxToState, Side.CLIENT)
         for {
-          a <- c.getCrafters.asScala
+          a <- PlayerHelper.getPlayersWithOpenedContainerAround(player, 5, classOf[ContainerAutoAssemblyTable]).asScala // don't use c.getCrafters.asScala, it returns only one!
           if a.isInstanceOf[EntityPlayerMP]
           player = a.asInstanceOf[EntityPlayerMP]
         } updatePacket.sendToClient(player)

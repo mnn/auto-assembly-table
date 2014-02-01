@@ -64,7 +64,8 @@ class GuiAutoAssemblyTable(_invPlayer: InventoryPlayer, val tile: TileEntity, _c
     colorButtons.get(button.id).foreach(b => {
       if (lastMouseButtonProcessed == 0) b.nextState()
       else if (lastMouseButtonProcessed == 1) b.prevState()
-      AssemblyTablePatternUpdatePacket.create(button.asInstanceOf[CraftingColorButton], button.id, Side.SERVER).sendToServer()
+      AssemblyTablePatternUpdatePacket.create(b, b.id, Side.SERVER).sendToServer()
+      tableTile.updatePattern(List(b.id -> b.numberOfSelectedState))
     })
   }
 
